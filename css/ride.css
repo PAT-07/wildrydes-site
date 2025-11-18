@@ -55,3 +55,21 @@ html, body, #main, #map {
     word-wrap: break-word;
     width: 100%;
 }
+#map {
+    height: 100vh;  /* Full viewport height */
+    width: 100%;
+}
+
+/* Or if you want it to fit within the page layout: */
+#main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
